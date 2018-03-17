@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/layout_with_border"
+    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_margin="16dp"
+        android:orientation="horizontal">
+        <RelativeLayout
+            android:minWidth="80dp"
+
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/s_no"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SRC"
+                android:textSize="24dp"
+                android:textStyle="bold"
+                android:layout_centerInParent="true"/>
+
+        </RelativeLayout>
+        <ImageView android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_width="2dp"
+            android:background="@color/black"
+            android:layout_height="match_parent"
+
+            />
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_margin="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="STATION NAME"
+                android:textSize="24dp"
+                android:textStyle="bold"
+                android:id="@+id/station_name"
+                android:layout_centerInParent="true"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

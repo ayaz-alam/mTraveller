@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4bb5ab</color>
+    <color name="colorPrimaryDark">#00857c</color>
+    <color name="colorAccent">#80e8dd</color>
+    <color name="colorSecondary">#ffe082</color>
+    <color name="colorSecondaryDark">#caae53</color>
+    <color name="colorSecondaryAccent">#ffffb3</color>
+    <color name="colorPrimaryText">#FFFFFF</color>
+    <color name="colorSecondaryText">#ffb300</color>
+    <color name="black">#000000</color>
+    <color name="hyperlink">#060f8b</color>
+    <color name="white">#dfffffff</color>
+    <color name="success_green">#64dd17</color>
+    <color name="error_red">#dd2c00</color>
+    <color name="til_blue">#ad08425c</color>
+</resources>

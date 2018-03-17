@@ -1,0 +1,144 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/signup_layout"
+    >
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/dark_back"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="0dp"
+        android:src="@drawable/logo_transparent_2"
+        android:id="@+id/logo"
+        android:layout_above="@+id/container"
+        android:layout_marginBottom="80dp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:minHeight="350dp"
+        android:id="@+id/container"
+        android:layout_margin="24dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/trans_white_rectangle"
+        android:padding="12dp"
+        android:paddingBottom="24dp"
+        android:layout_marginBottom="120dp"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/extra_large_heading"
+            android:text="Get Started"
+            android:textColor="@color/white"
+            android:layout_marginLeft="12dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sign up using email address and set your password"
+            android:textColor="@color/white"
+            android:textSize="@dimen/default_text_size"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="14dp"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_white"
+            android:hint="Enter Email"
+            android:id="@+id/email_login"
+            android:padding="4dp"
+            android:maxLines="1"
+            android:maxEms="1"
+            android:paddingBottom="4dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:minHeight="30dp"
+            android:drawableLeft="@drawable/ic_directions_bus"
+
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_white"
+            android:hint="Set Pass Code"
+            android:id="@+id/password_login"
+            android:minHeight="30dp"
+            android:drawableLeft="@drawable/ic_vpn_key"
+            android:padding="4dp"
+            android:maxLength="6"
+            android:drawablePadding="4dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:inputType="numberPassword"
+            android:paddingBottom="4dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/default_small_text_size"
+            android:textColor="@color/white"
+            android:text="By Clicking Signup you Accept Terms and Conditions"
+            android:layout_marginTop="4dp"
+            android:textAlignment="center"
+
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_marginLeft="64dp"
+            android:layout_marginRight="64dp"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:background="@drawable/register_button"
+            android:text="SignUp"
+            android:id="@+id/signup_button"
+            android:layout_marginTop="12dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:layout_marginTop="16dp"
+            android:text="Already registered?"
+            android:textSize="@dimen/default_small_text_size"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:textAlignment="center"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_marginTop="2dp"
+            android:textColor="#106a9b"
+            android:layout_marginLeft="4dp"
+            android:text="LOGIN NOW"
+            android:id="@+id/login_register"
+            android:textSize="@dimen/default_text_size"
+            />
+
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>
+

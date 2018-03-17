@@ -1,0 +1,125 @@
+<resources>
+    <string name="app_name">MobilityApp</string>
+    <string name="title_activity_firebase_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_maps">Map</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_favorite">Favourites</string>
+    <string name="nonet">No Internet</string>
+    <string name="nonet_msg">Please Enable Mobile Network</string>
+    <string name="Retry">Retry</string>
+    <string name="gps_network_not_enabled">Location Service not enabled</string>
+    <string name="open_location_settings">Open Setting</string>
+    <string name="Cancel">Cancel</string>
+    <string name="reverse_route">Reverse Route</string>
+    <string name="logout_text">Log Out</string>
+    <string name="connfirm_logout">Do you really want to Log out</string>
+    <string name="logout_mesg">Logging out will erase all your data and cache related to you</string>
+    <string name="connfirm_reverse">Confirm Reversing Route</string>
+    <string name="reverse_mesg">Reversing route will reverse the route, make sure you\'re at destination.</string>
+    <string name="login_activity">Login</string>
+    <string name="ticket_window_activity">Ticket Window</string>
+    <string name="reg_form_activity">Register</string>
+    <string name="set_route">Set already present route</string>
+    <string name="set_route_msg">Enter the already present Route number here</string>
+    <string name="notification_text">EnRoute</string>
+
+
+    <!--Array String for shared preferences-->
+    <string-array name="shared_preference_keys">
+
+
+    </string-array>
+
+    <!--State and Union Territory list-->
+    <string-array name="india_states">
+        <item>Andaman and Nicobar Islands</item>
+        <item>Andhra Pradesh</item>
+        <item>Arunachal Pradesh</item>
+        <item>Assam</item>
+        <item>Bihar</item>
+        <item>Chandigarh</item>
+        <item>Chhattisgarh</item>
+        <item>Dadra and Nagar Haveli</item>
+        <item>Daman and Diu</item>
+        <item>Delhi</item>
+        <item>Goa</item>
+        <item>Gujarat</item>
+        <item>Haryana</item>
+        <item>Himachal Pradesh</item>
+        <item>Jammu and Kashmir</item>
+        <item>Jharkhand</item>
+        <item>Karnataka</item>
+        <item>Kerala</item>
+        <item>Lakshadweep</item>
+        <item>Madhya Pradesh</item>
+        <item>Maharashtra</item>
+        <item>Manipur</item>
+        <item>Meghalaya</item>
+        <item>Mizoram</item>
+        <item>Nagaland</item>
+        <item>Orissa</item>
+        <item>Pondicherry</item>
+        <item>Punjab</item>
+        <item>Rajasthan</item>
+        <item>Sikkim</item>
+        <item>Tamil Nadu</item>
+        <item>Telangana</item>
+        <item>Tripura</item>
+        <item>Uttaranchal</item>
+        <item>Uttar Pradesh</item>
+        <item>West Bengal</item>
+    </string-array>
+
+    <!--State Codes-->
+    <string-array name="india_state_codes">
+        <item>AN</item>
+        <item>AP</item>
+        <item>AR</item>
+        <item>AS</item>
+        <item>BR</item>
+        <item>CH</item>
+        <item>CG</item>
+        <item>DN</item>
+        <item>DD</item>
+        <item>DL</item>
+        <item>GA</item>
+        <item>GJ</item>
+        <item>HR</item>
+        <item>HP</item>
+        <item>JK</item>
+        <item>JH</item>
+        <item>KA</item>
+        <item>KL</item>
+        <item>LD</item>
+        <item>MP</item>
+        <item>MH</item>
+        <item>MN</item>
+        <item>ML</item>
+        <item>MZ</item>
+        <item>NL</item>
+        <item>OR</item>
+        <item>PY</item>
+        <item>PB</item>
+        <item>RJ</item>
+        <item>SK</item>
+        <item>TN</item>
+        <item>TG</item>
+        <item>TR</item>
+        <item>UK</item>
+        <item>UP</item>
+        <item>WB</item>
+    </string-array>
+</resources>

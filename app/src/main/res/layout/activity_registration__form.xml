@@ -1,0 +1,88 @@
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/reg_form_layout"
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/reg_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        android:elevation="0dp"
+        android:layout_alignParentTop="true"
+        android:visibility="visible"
+        app:titleTextColor="@color/white"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Dark"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/extra_large_heading"
+        android:text="Bus Registration"
+        android:textAlignment="center"
+        android:id="@+id/title"
+        android:layout_below="@+id/reg_toolbar"
+        android:layout_centerHorizontal="true"
+        />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/main_layout"
+    android:layout_below="@+id/title"
+    android:orientation="vertical"
+    android:layout_marginTop="8dp"
+    >
+
+    <EditText
+        android:id="@+id/bus_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:maxLines="1"
+        android:inputType="textPersonName"
+        android:hint="Bus Number" />
+
+    <EditText
+        android:id="@+id/bus_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Bus Label" />
+    <AutoCompleteTextView
+        android:id="@+id/state"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:maxLines="1"
+        android:inputType="text"
+        android:hint="State"/>
+    <AutoCompleteTextView
+        android:id="@+id/city"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:maxLines="1"
+        android:inputType="text"
+        android:hint="City/Region" />
+
+    <EditText
+        android:id="@+id/route_no"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:maxLines="1"
+        android:inputType="text"
+        android:hint="Route Number" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/register"
+        android:text="Register Button"
+        />
+</LinearLayout>
+</RelativeLayout>
